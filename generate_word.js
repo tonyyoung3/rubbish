@@ -18,6 +18,10 @@ function generateWord(options) {
   let action = ''
   let adj = ''
 
+  if (!options.role) {
+    return
+  }
+
   role = options.role
   action = task[options.role][index]
   adj = phrase[index]
