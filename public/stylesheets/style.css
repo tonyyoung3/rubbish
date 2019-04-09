@@ -1,0 +1,11 @@
+.col-md-4 img{
+  width:200px;
+  height: 200px
+}
+
+.result{
+  width:400px;
+  height: 200px;
+  border-style:solid;
+
+}

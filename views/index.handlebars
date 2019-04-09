@@ -1,0 +1,31 @@
+<div class="container py-5">
+  <form method="POST" action="/">
+    <div class="role row">
+      <div class="col-md-4">
+        <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5668/angry-developer.jpg"></img>
+        <div>
+          <input type="radio" name="role" value="engineer">
+          <label for="role">工程師</label>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5667/angry-designer.jpg"></img>
+        <div>
+          <input type="radio" name="role" value="designer">
+          <label for="role">設計師</label>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5669/angry-founder.jpg"></img>
+        <div>
+          <input type="radio" name="role" value="entrepreneur">
+          <label for="role">創業家</label>
+        </div>
+      </div>
+      <button class="btn btn-success" type="submit">產生幹話吧</button>
+      <div class="result">
+        {{word}}
+      </div>
+    </div>
+  </form>
+</div>
